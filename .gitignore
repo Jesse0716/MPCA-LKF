@@ -1,0 +1,46 @@
+# MATLAB files
+*.asv
+*.mex*
+*.mat
+*.fig
+
+# MATLAB generated files
+slprj/
+*.slxc
+*.autosave
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Results and data files
+results/
+data/
+*.csv
+*.txt
+*.dat
+
+# Documentation build files
+docs/_build/
+docs/build/
+
+# Backup files
+*~
+*.bak
+*.backup 
