@@ -24,13 +24,13 @@ x0 = p.Results.x0;
 plot_results = p.Results.plot_results;
 
 %% Convergence rates λ
-lambda_vals = [0.087, 0.074, 0.072, 0.069, 0.060, 0.054];
+lambda_vals = [0.087, 0.074, 0.072, 0.060, 0.057, 0.054];
 labels = {
     'MPAC-LKF (\lambda = 0.087)', 
     'MAC-LKF (\lambda = 0.074)', 
     'LKF in [39] (\lambda = 0.072)', 
-    'LKF in [40] (\lambda = 0.069)', 
-    'LKF in [41] (\lambda = 0.060)',
+    'LKF in [40] (\lambda = 0.060)', 
+    'LKF in [41] (\lambda = 0.057)',
     'LKF in [42] (\lambda = 0.054)'
 };
 

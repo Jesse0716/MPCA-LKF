@@ -19,7 +19,7 @@ function [x, p_signal, time] = State_Simulation(varargin)
 %% Parameter parsing
 p = inputParser;
 addParameter(p, 'N', 200, @isnumeric);
-addParameter(p, 'tau', 2, @isnumeric);
+addParameter(p, 'tau', 3, @isnumeric);
 addParameter(p, 'min_dwell', 12, @isnumeric);
 addParameter(p, 'x0', [0.5; -0.3], @isnumeric);
 addParameter(p, 'plot_results', true, @islogical);
